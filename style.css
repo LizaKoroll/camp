@@ -1,0 +1,36 @@
+body{
+font-family: Tahoma;
+}
+
+header{
+    background-color: rgb(245, 92, 3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    margin-left: 20px ;
+    margin-right: 20px;
+    color: yellow;
+    text-decoration: none;
+}
+
+button{
+    background-color: orangered;
+    color: rgb(243, 240, 236);
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    background-color :rgb(255, 208, 52);
+}
+
+main{
+    background-color: rgb(245, 181, 42);
+    text-align: center;
+    min-height: 70vh;
+    padding-top: 70px;
+}
